@@ -1,7 +1,9 @@
 #include <stdio.h>
+
 /**
-*main-the function
-*puts-print the string to stdout
+* main - Entry point
+*
+* Return: Always 0 (Succes)
 */
 int main(void)
 {
