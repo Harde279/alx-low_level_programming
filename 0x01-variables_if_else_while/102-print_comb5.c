@@ -20,7 +20,7 @@ int main(void)
 			if (i < j)
 			{
 				putchar((i / 10) + 48);
-				putchar((i % 10) +48);
+				putchar((i % 10) + 48);
 				putchar(' ');
 				putchar((j / 10) + 48);
 				putchar((j % 10) + 48);
@@ -30,8 +30,8 @@ int main(void)
 					putchar(' ');
 				}
 			}
- 		}
- 	}
-        putchar('\n');
-        return (0);
+		}
+	}
+	putchar('\n');
+ 	return (0);
 }
