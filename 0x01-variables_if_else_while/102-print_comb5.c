@@ -5,7 +5,7 @@
 /**
 * main - entry point
 * Description:  prints all possible combinations
-of two two-digit numbers
+*of two two-digit numbers
 * Return: 0
 */
 
