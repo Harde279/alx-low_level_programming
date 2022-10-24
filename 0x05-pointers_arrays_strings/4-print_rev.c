@@ -7,15 +7,15 @@
 
 void print_rev(char *s)
 {
-	int n, sum;
+	int n, m, sum;
 
 	for (n = 0; s[n] != '\0'; n++)
 	{
 		sum += 1;
 	}
-	for (n = sum; n >= 0; n--)
+	for (m = sum; m >= 0; m--)
 	{
-		_putchar(s[n]);
+		_putchar(s[m]);
 	}
 	_putchar('\n');
 
