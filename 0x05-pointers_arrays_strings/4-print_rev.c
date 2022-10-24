@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
-* print_rev - print the reverse of the string passed
-* @s: the parameter passed to the function
+* print_rev - prints a string in reverse
+* @s: the string pointer passed by reference
 */
 
 void print_rev(char *s)
 {
-	int n, m, sum;
+	int i = 0;
 
-	for (n = 0; s[n] != '\0'; n++)
-	{
-		sum += 1;
-	}
-	for (m = sum; m >= 0; m--)
-	{
-		_putchar(s[m]);
-	}
+	while (s[i])
+		i++;
+	while (i--)
+		_putchar(s[i]);
 	_putchar('\n');
-
 }
