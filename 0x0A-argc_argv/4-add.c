@@ -10,11 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-
-	int i, j, k, num, sum = 0;
-
-	if (argc == 1)
-		printf("0\n");
+	int i, j, k, sum = 0;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -30,8 +26,7 @@ int main(int argc, char *argv[])
 
 	for (k = 1; k < argc; k++)
 	{
-		num = atoi(argv[k]);
-		sum += num;
+		sum += atoi(argv[k]);
 	}
 	printf("%d\n", sum);
 	return  (0);
